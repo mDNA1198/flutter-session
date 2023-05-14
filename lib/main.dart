@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       getPages: AppRoutes.getPages,
       initialRoute: AppRoutes.splashScreen,
       initialBinding: SplashPageBinding(),

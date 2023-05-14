@@ -16,7 +16,7 @@ class AppRoutes{
   static String splashScreen = '/splash';
   static String firstScreen = '/first_screen';
   static String secondScreen = '/second_screen';
-  static String threeScreen = '/third_screen';
+  static String thirdScreen = '/third_screen';
   static String fourthScreen = '/fourth_screen';
   static String fifthScreen = '/fifth_screen';
 
@@ -37,7 +37,7 @@ class AppRoutes{
       page: () => const SecondPageScreen(),
     ),
     GetPage(
-      name: AppRoutes.threeScreen,
+      name: AppRoutes.thirdScreen,
       binding: ThirdPageBinding(),
       page: () => const ThirdPageScreen(),
     ),
